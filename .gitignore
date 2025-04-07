@@ -1,1 +1,9 @@
 .env
+.idea
+.replit
+.vscode
+*.pyc
+*.pyd
+*.pyo
+.DS_Store
+Thumbs.db
