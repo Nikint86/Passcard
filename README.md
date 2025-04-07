@@ -7,7 +7,12 @@
 
 Переменные окружения
 
-PORT,HOST,USER,PASSWORD,NAME,ENGINE. 
+PORT - Порт БД
+HOST - Хост БД
+USER - Пользователь
+PASSWORD - Пароль
+NAME - Имя базы
+ENGINE - Движок БД
 
 Они необходимы для доступа в базу данных.
 
