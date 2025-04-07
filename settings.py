@@ -2,12 +2,12 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-engine = os.environ["ENGINE"]
-host = os.environ["HOST"]
-port = os.environ["PORT"]
-name = os.environ["NAME"]
-user = os.environ["USER"]
-password = os.environ["PASSWORD"]
+engine = os.environ["DB_ENGINE"]
+host = os.environ["DB_HOST"]
+port = os.environ["DB_PORT"]
+name = os.environ["DB_NAME"]
+user = os.environ["DB_USER"]
+password = os.environ["DB_PASSWORD"]
 
 DATABASES = {
     'default': {
