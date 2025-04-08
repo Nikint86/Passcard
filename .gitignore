@@ -7,3 +7,5 @@
 *.pyo
 .DS_Store
 Thumbs.db
+poetry.lock
+pyproject.toml
